@@ -32,7 +32,7 @@ This project is a secure web application with modern authentication and user man
 
 #### Set up the environment variables
 # Server Configuration
-PORT=3000
+PORT=5000
 
 # Database Configuration
 MONGO_URI=mongodb://localhost:27017/secure-web-app
@@ -42,15 +42,6 @@ JWT_SECRET=your_jwt_secret
 
 # CORS Configuration
 ALLOWED_ORIGINS=https://api.example.com
-
-# Rate Limiting Configuration
-RATE_LIMIT_WINDOW_MS=60000
-RATE_LIMIT_MAX=100
-
-
-
-
-
 
 
 1. **Clone the repository:**
