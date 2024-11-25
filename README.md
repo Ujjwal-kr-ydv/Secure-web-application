@@ -14,7 +14,6 @@ This project is a secure web application with modern authentication and user man
 ## Technologies Used
 
 
-
 ### Backend
 
 - Node.js
@@ -36,7 +35,7 @@ This project is a secure web application with modern authentication and user man
 PORT=3000
 
 # Database Configuration
-MONGO_URI=mongodb://atlasURL
+MONGO_URI=mongodb://localhost:27017/secure-web-app
 
 # JWT Secret Key
 JWT_SECRET=your_jwt_secret
